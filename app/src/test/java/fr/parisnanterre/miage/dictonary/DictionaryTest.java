@@ -1,5 +1,6 @@
 package fr.parisnanterre.miage.dictonary;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
@@ -11,9 +12,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 public class DictionaryTest {
-        private Dictionary dictionaire = new Dictionary("example")  ;
+        private Dictionary dictionaire ;
 
-    @BeforeTest
+    @BeforeEach
     public void testCreatDictionary(){
         this.dictionaire = new Dictionary("example");
 
