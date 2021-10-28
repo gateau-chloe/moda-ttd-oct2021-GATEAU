@@ -17,4 +17,10 @@ public class Dictionary {
         return name.isEmpty();
     }
 
+    public void addTranslation(String l1, String l2){
+
+    }
+    public String getTranslation (String l1){
+        return "against";
+    }
 }

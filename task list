@@ -1,4 +1,11 @@
 [X] 1- récupération du mot à traduire getName()
 [X] 2- vérification s'il est vide ou non isEmpty()
-[ ] 3- ajout d'une traduction au dictionaire addTranslation()
-[ ] 4- renvoyer la traduction getTranslation()
+[X] 3- ajout d'une traduction au dictionaire addTranslation()
+[X] 4- renvoyer la traduction getTranslation()
+
+
+
+réponse aux question:
+Translation:
+2 Est-il possible de faire un test qui n’implique l’ajout que d’une seule de ces deux méthodes ?
+Sans utiliser getTranslation on ne peut pas vérifier que l'ajout à bien eu lieu. Et on ne peut pas avoir la traduction d'un mot qui n'a pas été ajouté préalablement.
