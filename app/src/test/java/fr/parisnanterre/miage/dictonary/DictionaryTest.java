@@ -23,4 +23,9 @@ public class DictionaryTest {
     public void testDictionaryName(){
         assertThat(dictionaire.getName(), equalTo("example"));
     }
+
+    @Test
+    public void testDictionaryIsEmpty(){
+        assertThat(dictionaire.isEmpty(), equalTo(false));
+    }
 }

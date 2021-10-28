@@ -1,3 +1,4 @@
 [X] 1- récupération du mot à traduire getName()
-[ ] 2- ajout d'une traduction au dictionaire addTranslation()
-[ ] 3- renvoyer la traduction getTranslation()
+[X] 2- vérification s'il est vide ou non isEmpty()
+[ ] 3- ajout d'une traduction au dictionaire addTranslation()
+[ ] 4- renvoyer la traduction getTranslation()

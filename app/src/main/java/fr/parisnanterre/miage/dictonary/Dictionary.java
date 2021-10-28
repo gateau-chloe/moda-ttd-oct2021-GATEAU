@@ -13,4 +13,8 @@ public class Dictionary {
         return name;
     }
 
+    public Boolean isEmpty(){
+        return name.isEmpty();
+    }
+
 }
