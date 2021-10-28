@@ -6,6 +6,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         DictionaryTest.class,
+        DictionaryParserTest.class,
 })
 public class AllTest {
     // Empty class ( introspection )
